@@ -1,0 +1,16 @@
+
+
+.photoContainer {
+  height: 50px;
+  width: 50px;
+}
+.form-control {
+  border: none;
+  border-bottom: 2px solid grey;
+}
+
+.inputWraper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}

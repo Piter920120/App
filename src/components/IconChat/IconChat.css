@@ -1,0 +1,50 @@
+.IconChat-wrapper {
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    left: 0px;
+    align-items: flex-end;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    position: relative;
+     z-index: 9000;
+}
+
+.IconChat-menu {
+    font-size: 1.5rem;
+    margin-left: 15px;
+    margin-right: 10px;
+    position: fixed;
+    bottom:0;
+    right: 0;
+    z-index: 9001; 
+    border-radius: 10px 10px 0 0;
+   
+}
+
+.IconChat-side-menu {
+    position: fixed;
+    bottom: 0;
+    height: 70vh;
+    border: 1px solid #e2b42c;
+    width: 98vw;
+    background-color:white; 
+    border-radius: 10px 10px 0 0;
+}
+
+
+
+.IconChat-side-menu.hide {
+    transform: translate3d(-120%, 0, 0);
+    
+}
+
+.IconChat-side-menu.show {
+    transform: translate3d(0, 0, 0);
+    overflow: scroll;
+    left: 3px;
+    border: 1px solid #e2b42c;
+    box-shadow: 0px 2px 5px black;
+    background-color: #f5ce6f;
+}

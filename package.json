@@ -1,0 +1,41 @@
+{
+  "name": "jfdd11-materialy-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "avataaars": "^1.2.1",
+    "bootstrap": "^4.3.1",
+    "firebase": "^5.8.4",
+    "leaflet": "^1.4.0",
+    "moment": "^2.24.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-leaflet": "^2.2.1",
+    "react-router-dom": "^4.3.1",
+    "reactstrap": "^7.1.0"
+  },
+  "devDependencies": {
+    "react-scripts": "2.1.5",
+    "yeoman-generator": "3.2.0",
+    "yo": "2.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "generate:component": "yo ./generators/component/index.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

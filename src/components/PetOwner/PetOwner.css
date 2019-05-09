@@ -1,0 +1,41 @@
+.PetOwnerPage {
+  margin: 1%;
+}
+
+.PetOwnerPage h6 {
+    margin-bottom: -2px;
+    
+  }
+
+.inputWraper{
+    display: flex;
+}
+
+.inputSmallWraper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.inputFile{
+    width: 100%;
+    height: 216px;
+    
+}
+
+
+
+.inputSmall{
+    display: block;
+    margin-bottom: 6px;
+    
+    border-radius: 5px;
+    margin-right: 2vw;
+}
+
+.PetOwnerPage textarea{
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
